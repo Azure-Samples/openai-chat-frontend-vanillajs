@@ -1,0 +1,10 @@
+{
+    "name": "chatgpt-frontend-vanilla",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "sirv ./src public --cors --single --no-clear --port 8000"
+    },
+    "dependencies": {
+        "sirv-cli": "^2.0.2"
+    }
+}
