@@ -2,9 +2,12 @@
     "name": "chatgpt-frontend-vanilla",
     "version": "1.0.0",
     "scripts": {
-        "start": "sirv ./src public --cors --single --no-clear --port 8000"
+        "start": "sirv ./frontend public --cors --single --no-clear --port 8000"
     },
     "dependencies": {
+        "@microsoft/ai-chat-protocol": "^1.0.0-beta.20240610.1",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
         "sirv-cli": "^2.0.2"
     }
 }
